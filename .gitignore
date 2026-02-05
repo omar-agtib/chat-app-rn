@@ -1,0 +1,65 @@
+########################
+# Dependencies
+########################
+node_modules/
+
+########################
+# Environment variables
+########################
+.env
+.env.*
+.env*.local
+
+########################
+# Logs & Debug
+########################
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+########################
+# Build outputs
+########################
+dist/
+build/
+web-build/
+
+########################
+# Expo / React Native
+########################
+.expo/
+expo-env.d.ts
+.metro-health-check*
+
+########################
+# Native (iOS / Android)
+########################
+ios/
+android/
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+########################
+# TypeScript
+########################
+*.tsbuildinfo
+
+########################
+# macOS
+########################
+.DS_Store
+
+########################
+# Security / Certs
+########################
+*.pem
+
+########################
+# Misc
+########################
+app-example
